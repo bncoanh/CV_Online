@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import logo from "../assets/img/logo.svg";
-import navIcon1 from "../assets/img/nav-icon1.svg";
+import navIcon1 from "../assets/img/zalo.svg";
 import navIcon2 from "../assets/img/nav-icon2.svg";
 import navIcon3 from "../assets/img/nav-icon3.svg";
 import { HashLink } from "react-router-hash-link";
@@ -77,7 +77,7 @@ export const NavBar = () => {
                         </Nav>
                         <span className="navbar-text">
                             <div className="social-icon">
-                                <a href="#">
+                                <a href="https://zalo.me/0889535303">
                                     <img src={navIcon1} alt="" />
                                 </a>
                                 <a href="https://www.facebook.com/bncoanh">
@@ -87,7 +87,6 @@ export const NavBar = () => {
                                     <img src={navIcon3} alt="" />
                                 </a>
                             </div>
-                            
                         </span>
                     </Navbar.Collapse>
                 </Container>

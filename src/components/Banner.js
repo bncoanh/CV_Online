@@ -8,6 +8,7 @@ import phone from "../assets/img/phone.svg";
 import email from "../assets/img/email.svg";
 import github from "../assets/img/github.svg";
 import { HashLink } from "react-router-hash-link";
+import { Cv } from "./Cv.js";
 
 export const Banner = () => {
     const [loopNum, setLoopNum] = useState(0);
@@ -93,6 +94,7 @@ export const Banner = () => {
                                         high-performance software systems with a
                                         focus on reliability and efficiency.
                                     </p>
+                                    <Cv/>
                                     <div className="item_icon">
                                         <img src={phone} alt="Phone" />
                                         <h5>0889 535 303</h5>
@@ -113,7 +115,6 @@ export const Banner = () => {
                                             </a>
                                         </h5>
                                     </div>
-                                    
                                 </div>
                             )}
                         </TrackVisibility>
